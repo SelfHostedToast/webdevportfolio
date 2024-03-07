@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="476.93399"
+   height="74.350998"
+   viewBox="0 0 476.93399 74.350998"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="selfhostedtoast.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showborder="false"
+     inkscape:zoom="1.7070313"
+     inkscape:cx="156.99771"
+     inkscape:cy="147.3318"
+     inkscape:window-width="1920"
+     inkscape:window-height="1049"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#010001;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <rect
+       x="102.19331"
+       y="175.61278"
+       width="109.14402"
+       height="14.033514"
+       id="rect1" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="102.2168"
+       y1="181.75684"
+       x2="208.59753"
+       y2="181.75684"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4"
+       x="-0.0020849464"
+       y="-0.023882365"
+       width="1.0041699"
+       height="1.0477647">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.026025261"
+         id="feGaussianBlur4" />
+    </filter>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       id="text1"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Hack;-inkscape-font-specification:'Hack, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.113569px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1);opacity:1;mix-blend-mode:normal;fill:#ffb380;stroke:#dd7e00;stroke-width:0.318675;stroke-dasharray:0.637351, 0.318675;stroke-dashoffset:0.796688;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter4)"
+       transform="matrix(4.4025982,0,0,4.4025982,-445.72832,-763.02682)"
+       inkscape:label="text1"><tspan
+         x="102.19336"
+         y="186.23047"
+         id="tspan2">SelfHostedToast</tspan></text>
+  </g>
+</svg>

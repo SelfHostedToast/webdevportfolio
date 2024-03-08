@@ -1,9 +1,17 @@
 html {
+  scroll-behavior: smooth;
   margin-top: 24px;
-  background-color: orange;
+  background-color: rgb(255, 166, 0);
 }
 br {
   background-color: black;
+}
+#title a {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: orange;
+  text-decoration: none;
 }
 #title {
   font-size: 24px;
@@ -40,21 +48,62 @@ br {
 }
 
 .main-content {
+  text-align: center;
   border: solid black 2px;
   padding: 8px;
   display: block;
-  margin: 10% auto;
+  margin: 5% auto;
   max-width: 800px;
 }
 #intro {
   max-width: 300px;
   text-align: center;
-  margin: 24px auto;
+  margin: 96px auto;
   font-family: monospace;
   font-size: 20px;
   display: block;
 }
-#logo {
+#news {
+  text-align: center;
+  font-weight: bold;
+}
+.previews {
+  text-align: center;
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#aboutmepreview {
+  height: 100%;
+  padding: 4px;
+  width: 200px;
+}
+#projectspreview {
+  height: 100%;
+  width: 200px;
+  padding: 4px;
+}
+#blogpreview {
+  height: 100%;
+  width: 200px;
+  padding: 4px;
+}
+.divider {
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+#name {
+  padding: 4px;
+  text-decoration: underline;
+}
+#ghlogo {
+  padding: 4px;
+  margin: 24px auto;
   display: block;
-  margin: 0 auto;
+  height: 24px;
+  width: 24px;
+}
+footer {
+  text-align: center;
 }

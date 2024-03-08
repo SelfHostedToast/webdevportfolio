@@ -9,23 +9,70 @@
   <body>
     <main>
       <div class="nav">
-        <h1 id="title">SelfHostedToast</h1>
-        <button class="nav-button" id="aboutme">About Me</button>
-        <button class="nav-button" id="projects">Projects</button>
-        <button class="nav-button" id="blog">Blog</button>
+        <h1 id="title"><a href="./index.html">SelfHostedToast</a></h1>
+        <a href="./pages/aboutme.html"
+          ><button class="nav-button" id="aboutme">About Me</button></a
+        >
+        <a href="./pages/projects.html">
+          <button class="nav-button" id="projects">Projects</button></a
+        >
+        <a href="./pages/blog.html">
+          <button class="nav-button" id="blog">Blog</button></a
+        >
       </div>
       <div class="introduction">
-        <h2 id="intro">Hi, I'm Dominick Smith a front-end web developer! 😃</h2>
+        <h2 id="intro">
+          Hi, I'm <span id="name"><em>Dominick Smith</em></span> a front-end web
+          developer! 😃
+        </h2>
       </div>
       <div class="main-content">
+        <h3 id="news">News!</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, itaque
-          tempore harum suscipit iste voluptatibus ut cupiditate quasi, autem
-          totam, nesciunt quo! Dolorum quas quod ratione vitae illo ipsa
-          aliquid?
+          I am enrolling soon into Western Governors University (WGU) studying
+          to earn a bachelors in computer science!
         </p>
-        <img id="logo" src="./img/selfhostedtoast.svg"
+      </div>
+      <div class="previews">
+        <div id="aboutmepreview">
+          <h3>About me</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            quis repellat facere architecto. Asperiores dicta saepe ut
+            architecto, commodi quaerat eaque veniam illum maiores voluptate?
+            Blanditiis nostrum maiores eveniet ullam?
+          </p>
+          <a href="./pages/aboutme.html">Read more</a>
+        </div>
+        <div class="divider"></div>
+        <div id="projectspreview">
+          <h3>Projects</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            similique placeat molestias sapiente consectetur incidunt aliquam
+            illo odio rerum exercitationem! Maxime facilis veniam alias nihil
+            doloremque ut magnam nemo harum?
+          </p>
+          <a href="./pages/projects.html">Read more</a>
+        </div>
+        <div class="divider"></div>
+        <div id="blogpreview">
+          <h3>Blog</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi,
+            eum, officiis voluptatibus commodi earum error aperiam, nisi
+            corporis repellendus rerum ut. Accusantium consequatur hic eaque
+            perspiciatis facere, fugiat sint ut.
+          </p>
+          <a href="./pages/blog.html">Read more</a>
+        </div>
       </div>
     </main>
   </body>
+  <footer>
+    <a href="https://github.com/SelfHostedToast">
+      <img id="ghlogo" src="/img/github-mark.svg"
+    /></a>
+    <p>© Copyright 2024 by Dominick Smith - All Rights reserved</p>
+  </footer>
 </html>
